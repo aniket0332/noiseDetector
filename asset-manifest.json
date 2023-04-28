@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/noiseDetector/static/css/main.073c9b0a.css",
+    "main.js": "/noiseDetector/static/js/main.c8843dcc.js",
+    "static/js/787.9252b988.chunk.js": "/noiseDetector/static/js/787.9252b988.chunk.js",
+    "index.html": "/noiseDetector/index.html",
+    "main.073c9b0a.css.map": "/noiseDetector/static/css/main.073c9b0a.css.map",
+    "main.c8843dcc.js.map": "/noiseDetector/static/js/main.c8843dcc.js.map",
+    "787.9252b988.chunk.js.map": "/noiseDetector/static/js/787.9252b988.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c8843dcc.js"
+  ]
+}
