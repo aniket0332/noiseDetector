@@ -65,7 +65,7 @@ const NoiseLeveldDetector = () => {
             .then((stream) => {
                 const source = audioContext.createMediaStreamSource(stream);
                 source.connect(analyserNode);
-                analyserNode.connect(audioContext.destination);
+                // analyserNode.connect(audioContext.destination);
             })
             .catch((error) => {
                 console.error(error);
