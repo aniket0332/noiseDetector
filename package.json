@@ -1,7 +1,7 @@
 {
   "name": "audiodetector",
   "version": "0.1.0",
-  "homepage": "http://aniket0332.github.io/noiseDetector", 
+  "homepage": "http://aniket0332.github.io/noiseDetector",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.8",
@@ -14,6 +14,7 @@
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-audio-voice-recorder": "^1.0.10",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-sound-visualizer": "^1.0.8",

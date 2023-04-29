@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { AppBar, Box, Container, Toolbar, Typography } from '@mui/material';
+import { Container, Typography } from '@mui/material';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import PauseCircleIcon from '@mui/icons-material/PauseCircle';
 
@@ -96,18 +96,12 @@ const NoiseLeveldDetector = () => {
 
     return (
 
-        <>
-            <Box sx={{ flexGrow: 1 }} >
-                <AppBar position="static" style={{backgroundColor: "#573c3f"}} >
-                    <Toolbar>
-                        <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: "center" }}>
-                            Noise detector
-                        </Typography>
-                    </Toolbar>
-                </AppBar>
-            </Box>
-            <Container sx={{ display: "flex", flexDirection: "column", padding: "2%" }}>
-                <canvas ref={canvasRef} width={1000} height={200} style={{backgroundColor: "#fad9cd", border: "1px solid black"}}></canvas>
+        <> 
+        <Typography style={{ textAlign: "center", fontSize: "1.5rem", padding: "2%" }}>
+        Sound wave
+      </Typography>
+            <Container sx={{ display: "flex", flexDirection: "column", padding: "1%" }}>
+                <canvas ref={canvasRef} width={1000} height={200} style={{backgroundColor: "#fad9cd", boxShadow: "1px 2px 19px #F4AAB9" }}></canvas>
                 <div style={{ marginLeft: "auto", marginRight: "auto", width: "32px", padding: "2%" }}>
                     {button ? (
                             <PauseCircleIcon color='success' onClick={toggle} fontSize={'large'}/>
@@ -117,7 +111,6 @@ const NoiseLeveldDetector = () => {
 
                 </div>
             </Container>
-
         </>
     );
 };
